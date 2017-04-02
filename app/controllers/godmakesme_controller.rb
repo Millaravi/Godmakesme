@@ -1,9 +1,10 @@
 class GodmakesmeController < ApplicationController
   def index
-        @lotto = (1..45).to_a
-    
-        @pick = @lotto.sample(6)
-    
-    
+        @god = (1..5).to_a
+        @pick = @god.sample(1)
+  
+  end
+  
+  def introduce
   end
 end
